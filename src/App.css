@@ -1,0 +1,40 @@
+html{
+  height: 100%;
+}
+body{
+  background-image: url(./img/background.jpg) ;
+  background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+.App {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card{
+  width: 300.5px;
+  height: 535px;
+  box-shadow: 1px 1px 20px 2px gray;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  color: white;
+}
+.footer-card{
+  padding: 1rem;
+}
+button{
+  background: #845EC2;
+  border: none;
+  color: white;
+  box-shadow: 1px 1px 20px gray;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
