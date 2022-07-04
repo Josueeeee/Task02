@@ -51,7 +51,6 @@ function App() {
     return thebackG;
   }
 
-
   
   return (
     <div className="App">
