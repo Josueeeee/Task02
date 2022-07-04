@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import useWeather from './hooks/useWeather'
-import backgrounddata from "../src/Data/backgrounddata.json"
+// import backgrounddata from "../src/Data/backgrounddata.json"
 function App() {
   //Lamada del hook
   const { weather ,callapi } = useWeather();
@@ -24,7 +24,12 @@ function App() {
     Settemperature(!temperature) //Alterno el resultado con la condicional alternario
   }
 
-
+  const backgrounddata ={
+    BackgroundNigth : "./src/img/Nigth02.jpg",
+    BackGroundRain : "./src/img/rain.jpg",
+  BackgroundSClear : "./src/img/Sunny.png",
+    BackgroundSCloud : "./src/img/sky-cloud.png"
+  }
   //FONDO DINAMICO SEGUN EL ESTADO DEL CLIMA
   let thebackG = ""
   const climate = weather.weather?.[0].main;
