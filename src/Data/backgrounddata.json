@@ -1,7 +1,6 @@
 {
-    "BackgroundNigth" : "../src/img/Nigth02.jpg",
-    "BackGroundRain" : "../src/img/rain.jpg",
-    "BackgroundSClear" : "../src/img/Sunny.png",
-    "BackgroundSCloud" : "../src/img/sky-cloud.png"
-    
+    "BackgroundNigth" : "./src/img/Nigth02.jpg",
+    "BackGroundRain" : "./src/img/rain.jpg",
+    "BackgroundSClear" : "./src/img/Sunny.png",
+    "BackgroundSCloud" : "./src/img/sky-cloud.png"
 }
